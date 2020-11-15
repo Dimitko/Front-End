@@ -1,7 +1,7 @@
-let DA = []
-DA.push(new Date())
-DA.push(new Date('December 8, 2020 21:00:00'))
-let DA2 = DA.map(date => date.getDay())
+let DA = [];
+DA.push(new Date());
+DA.push(new Date('December 8, 2020 21:00:00'));
+let DA2 = DA.map(date => date.getDay());
 
 let DA3 = [];
 
@@ -16,32 +16,32 @@ for( i = 0; i < 2; i++){
     let day;
     switch(DA2[0]){
     case(0):
-        day = 'понеделник'
+        day = 'понеделник';
         break;
     
     case(1):
-        day = 'вторник'
+        day = 'вторник';
         break;
     
     case(2):
-        day = 'сряда'
+        day = 'сряда';
         break;
     
     case(3):
-        day = 'четвъртък'
+        day = 'четвъртък';
         break;
     
     case(4):
-        day = 'петък'
+        day = 'петък';
         break;
     
     case(5):
-        day = 'събота'
+        day = 'събота';
         break;
     
     case(6):
-        day = 'неделя'
+        day = 'неделя';
         break;
     }
-    DA3.push('Дата: ' + dd + '.' + mm + '.' + yyyy + ', час: ' + hh + ':' + mm + ':' + ss + ', ' + day + ', ')
+    DA3.push('Дата: ' + dd + '.' + mm + '.' + yyyy + ', час: ' + hh + ':' + mm + ':' + ss + ', ' + day + ', ');
 }
